@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <script src="love_calculator.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="header">
+        <h1>Love Calculator</h1>
+        <p>This is a game of truth, a game you must fully respect before playing correctly... You must believe in this game or it will chew you up and spit you out! Now, if you're ready, go for it...</p>
+    </div>
+    <button class="love_button" onclick="openGameDiv()">Play Love Calculator</button>
+    <div class="game" id="game" style="display: none;margin-left: 15%;margin-top: 5%;">
+        <form>
+            <label for="yourname">What is your name?</label>
+            <input type="text" name="yourname" /><br>
+            <label for="theirname">What is their name?</label>
+            <input type="text" name="theirname" /><br>
+            <button class="submitButton" onclick="loveCalculator()">Submit!</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+    margin-left: 15%;
+    margin-top: 2.5%;
+}
+button {
+    background-color: rgb(126, 126, 255);
+    color: white;
+    font-size: 2.3rem;
+    margin-left: 18%;
+}
+button:hover {
+    cursor: pointer;
+}
+.submitButton {
+    font-size: 1.5rem;
+    background-color:rgb(32, 32, 32);
+    border-color: white;
+    margin-top: 2%;
+    margin-left: 20%;
+}
